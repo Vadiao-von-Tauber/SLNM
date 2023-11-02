@@ -1,0 +1,163 @@
+1694535890896	geckodriver	INFO	Listening on 127.0.0.1:57387
+1694535893954	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--disable-exstension ... 7388" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofilercq4Qa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694535894653	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-exstensions"
+1694535894725	Marionette	INFO	Listening on port 57404
+WebDriver BiDi listening on ws://127.0.0.1:57388
+Read port: 57404
+1694535895039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57388/devtools/browser/1e724f33-1b6c-4c24-aa2a-616f4de7f957
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.by."
+1694535903710	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://imasdk.googleapis.com/js/sdkloader/ima3.js, line 119: Script terminated by timeout at:
+mi@https://imasdk.googleapis.com/js/sdkloader/ima3.js:119:309
+ri/this.O@https://imasdk.googleapis.com/js/sdkloader/ima3.js:116:89
+
+1694535946070	Marionette	INFO	Stopped listening on port 57404
+Dynamically enable window occlusion 1
+1694535985059	geckodriver	INFO	Listening on 127.0.0.1:57521
+1694535988124	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\117.0.1\\firefox.exe" "--marionette" "--disable-exstension ... 7522" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofileIX1bbx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694535988469	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-disable-exstensions"
+1694535988553	Marionette	INFO	Listening on port 57530
+Read port: 57530
+WebDriver BiDi listening on ws://127.0.0.1:57522
+1694535988627	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57522/devtools/browser/8466da9e-c787-4c07-94e3-7eb5c866097d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.by."
+1694535997303	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1694536005650	Marionette	INFO	Stopped listening on port 57530
+JavaScript warning: https://yandex.ru/ads/system/context.js, line 2: Script terminated by timeout at:
+12251/t.protect/<@https://yandex.ru/ads/system/context.js:2:123434
+
+Dynamically enable window occlusion 1
+1695750029055	geckodriver	INFO	Listening on 127.0.0.1:61141
+1695750032120	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\118.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 1142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofileu3HgRQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695750032719	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695750032800	Marionette	INFO	Listening on port 61149
+WebDriver BiDi listening on ws://127.0.0.1:61142
+Read port: 61149
+1695750032996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61142/devtools/browser/aeef0bfc-d4fc-4045-8f83-10885e1bd278
+JavaScript error: http://ide.geeksforgeeks.org/online-html-editor/WXYeMD9tD4, line 1066: ReferenceError: Bloodhound is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c, line 452: Script terminated by timeout at:
+aa.rh@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:452:89
+get@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:87
+aa.Bk/c/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:412
+
+1695750085059	Marionette	INFO	Stopped listening on port 61149
+Dynamically enable window occlusion 1
+1695750202019	geckodriver	INFO	Listening on 127.0.0.1:61272
+1695750205084	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\118.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 1273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofileJapypA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695750205429	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695750205513	Marionette	INFO	Listening on port 61280
+Read port: 61280
+WebDriver BiDi listening on ws://127.0.0.1:61273
+1695750205604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61273/devtools/browser/5026b912-2faf-447a-abcb-226e83767e8a
+JavaScript error: http://ide.geeksforgeeks.org/online-html-editor/WXYeMD9tD4, line 1066: ReferenceError: Bloodhound is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c, line 452: Script terminated by timeout at:
+aa.rh@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:452:42
+get@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:87
+aa.Bk/c/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:412
+
+1695750216412	Marionette	INFO	Stopped listening on port 61280
+Dynamically enable window occlusion 1
+1695750284798	geckodriver	INFO	Listening on 127.0.0.1:61412
+1695750287851	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\118.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 1413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofileZZYXic"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695750288134	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695750288205	Marionette	INFO	Listening on port 61420
+WebDriver BiDi listening on ws://127.0.0.1:61413
+Read port: 61420
+1695750288427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61413/devtools/browser/4f4e1abf-e01d-4101-b858-b7afdf543c02
+JavaScript error: http://ide.geeksforgeeks.org/online-html-editor/WXYeMD9tD4, line 1066: ReferenceError: Bloodhound is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c, line 452: Script terminated by timeout at:
+aa.rh@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:452:89
+get@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:87
+aa.Bk/c/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:412
+
+1695750309216	Marionette	INFO	Stopped listening on port 61420
+Dynamically enable window occlusion 1
+1695750446256	geckodriver	INFO	Listening on 127.0.0.1:61534
+1695750449318	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\118.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 1535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofilerS62oM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695750449669	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695750449740	Marionette	INFO	Listening on port 61542
+WebDriver BiDi listening on ws://127.0.0.1:61535
+Read port: 61542
+1695750449907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61535/devtools/browser/6d6a3a71-4e20-47a8-8347-1ee36120fbba
+JavaScript error: http://ide.geeksforgeeks.org/online-html-editor/WXYeMD9tD4, line 1066: ReferenceError: Bloodhound is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c, line 452: Script terminated by timeout at:
+aa.rh@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:452:89
+get@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:87
+aa.Bk/c/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:412
+
+1695750463070	Marionette	INFO	Stopped listening on port 61542
+Dynamically enable window occlusion 1
+1695750530874	geckodriver	INFO	Listening on 127.0.0.1:61638
+1695750533934	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\118.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 1639" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofileLXFEOd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695750534250	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695750534323	Marionette	INFO	Listening on port 61647
+WebDriver BiDi listening on ws://127.0.0.1:61639
+Read port: 61647
+1695750534535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61639/devtools/browser/6db0b068-66fd-4509-a68f-61fce0f6b3a4
+JavaScript error: http://ide.geeksforgeeks.org/online-html-editor/WXYeMD9tD4, line 1066: ReferenceError: Bloodhound is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c, line 127: Script terminated by timeout at:
+Qa@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:127:437
+cp@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:347:423
+Xv@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:384:411
+tF/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:498:153
+aa.Bk/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:451:126
+aa.Bk/c/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:450:420
+
+1695750552111	Marionette	INFO	Stopped listening on port 61647
+Dynamically enable window occlusion 1
+1695750578392	geckodriver	INFO	Listening on 127.0.0.1:61743
+1695750581458	mozrunner::runner	INFO	Running command: "C:\\Users\\st\\.cache\\selenium\\firefox\\win64\\118.0\\firefox.exe" "--marionette" "--remote-debugging-por ... 1744" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\st\\AppData\\Local\\Temp\\rust_mozprofilesLCgz6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695750581747	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695750581819	Marionette	INFO	Listening on port 61751
+WebDriver BiDi listening on ws://127.0.0.1:61744
+Read port: 61751
+1695750582041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61744/devtools/browser/2bd82a3d-34f0-4fdd-b79d-8271e22ca5a2
+JavaScript error: http://ide.geeksforgeeks.org/online-html-editor/WXYeMD9tD4, line 1066: ReferenceError: Bloodhound is not defined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c, line 465: Script terminated by timeout at:
+aa.rh@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:465:89
+get@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:463:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:463:87
+aa.Bk/c/<@https://www.googletagmanager.com/gtag/js?id=G-0NES23QB6N&l=dataLayer&cx=c:463:412
+
+1695750611890	Marionette	INFO	Stopped listening on port 61751
+Dynamically enable window occlusion 1
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 321))
+1695750611965	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
