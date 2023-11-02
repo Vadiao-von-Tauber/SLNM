@@ -233,8 +233,3 @@ class TestClass(unittest.TestCase):
         self.rubber_ducks_page.main_menu.click_to_rubber_ducks_item()
         self.rubber_ducks_page.assert_selecting_purple_duck()
 
-#    def test_07_add_to_basket(self) -> None:
-#        self.rubber_ducks_page = RubberDucksPage(self.driver)
-#        self.rubber_ducks_page.main_menu.click_to_rubber_ducks_item(self.driver)
-#        self.rubber_ducks_page.
-#        self.rubber_ducks_page.
