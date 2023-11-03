@@ -1,3 +1,5 @@
+#ATTENTION: Only for Python 3.11.
+
 import unittest
 from typing import Self
 
