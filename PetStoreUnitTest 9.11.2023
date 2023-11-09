@@ -1,0 +1,56 @@
+import unittest
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+class PetStoreTests(unittest.TestCase):
+   def setUp(self) -> None:
+      self.driver = webdriver.Chrome()
+      self.pageSetUp()
+
+   def pageSetUp(self) -> None:
+      self.page_url = 'https://petstore.octoperf.com'
+      self.driver.get(self.page_url)
+
+   def tearDown(self) -> None:
+      self.driver.quit()
+
+   def test_00_open_page(self) -> None:
+      time.sleep(3)
+
+   def test_01_enter_to_main_page(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      time.sleep(3)
+
+   def test_02_select_new_pet(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      self.cat_button = self.driver.find_element(By.CSS_SELECTOR, "#SidebarContent > a:nth-child(7) > img")
+      self.cat_button.click()
+
+      time.sleep(3)
+
+   def test_03_selection_persian_cats(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      self.cat_button = self.driver.find_element(By.CSS_SELECTOR, "#SidebarContent > a:nth-child(7) > img")
+      self.cat_button.click()
+
+      self.select_persian_cat = self.driver.find_element\
+         (By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(3) > td:nth-child(1) > a")
+      self.select_persian_cat.click()
+
+      self.select_male_persian_cat = self.driver.find_element\
+         (By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(3) > td:nth-child(1) > a")
+      self.select_male_persian_cat.click()
+
+      time.sleep(5)
+
+
+
+if __name__ == '__main__':
+   unittest.main()
