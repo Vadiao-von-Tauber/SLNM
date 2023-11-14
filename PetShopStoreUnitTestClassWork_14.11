@@ -1,0 +1,130 @@
+import unittest
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+class PetStoreTests(unittest.TestCase):
+   def setUp(self) -> None:
+      self.driver = webdriver.Chrome()
+      self.pageSetUp()
+
+   def pageSetUp(self) -> None:
+      self.page_url = 'https://petstore.octoperf.com'
+      self.driver.get(self.page_url)
+
+   def tearDown(self) -> None:
+      self.driver.quit()
+
+   def test_00_open_page(self) -> None:
+      time.sleep(3)
+
+   def test_01_enter_to_main_page(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      time.sleep(3)
+
+   def test_02_select_new_pet(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      self.cat_button = self.driver.find_element(By.CSS_SELECTOR, "#SidebarContent > a:nth-child(7) > img")
+      self.cat_button.click()
+
+      time.sleep(3)
+
+   def test_03_selection_persian_cats(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      self.cat_button = self.driver.find_element(By.CSS_SELECTOR, "#SidebarContent > a:nth-child(7) > img")
+      self.cat_button.click()
+
+      self.select_persian_cat = self.driver.find_element\
+         (By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(3) > td:nth-child(1) > a")
+      self.select_persian_cat.click()
+      time.sleep(5)
+
+      self.select_male_persian_cat = self.driver.find_element\
+         (By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(3) > td:nth-child(1) > a")
+      self.select_male_persian_cat.click()
+      time.sleep(10)
+
+      self.return_button_click = self.driver.find_element(By.CSS_SELECTOR, "#BackLink > a")
+      self.return_button_click.click()
+      time.sleep(5)
+
+      self.select_female_persian_cat = self.driver.find_element\
+         (By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(2) > td:nth-child(1) > a")
+      self.select_female_persian_cat.click()
+      time.sleep(5)
+
+   def test_04_add_to_cart_tailless_manx_cat(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      self.cat_button = self.driver.\
+         find_element(By.CSS_SELECTOR, "#SidebarContent > a:nth-child(7) > img")
+      self.cat_button.click()
+
+      self.select_manx_cats = self.driver.\
+         find_element(By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(2) > td:nth-child(1) > a")
+      self.select_manx_cats.click()
+
+      self.select_manx_cat = self.driver.\
+         find_element(By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(2) > td:nth-child(1) > a")
+      self.select_manx_cat.click()
+
+      self.look_at_tailless_cat = self.driver.\
+         find_element(By.ID, "Catalog")
+      self.look_at_tailless_cat.click()
+      time.sleep(2)
+
+      self.adding_cat_to_cart = self.driver.find_element(By.ID, "Catalog")
+      self.adding_cat_to_cart.click()
+      time.sleep(2)
+
+   def test_05_search_and_add_big_toothless_tiger_shark(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+
+      self.input_shark = self.driver.\
+         find_element(By.CSS_SELECTOR, "#SearchContent > form > input[type=text]:nth-child(1)")
+      self.input_shark.send_keys("shark")
+      time.sleep(3)
+
+      self.search_button_click = self.driver.\
+         find_element(By.CSS_SELECTOR, "#SearchContent > form > input[type=submit]:nth-child(2)")
+      self.search_button_click.click()
+      time.sleep(5)
+
+      self.select_shark = self.driver.\
+         find_element(By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(2) > td:nth-child(1) > a")
+      self.select_shark.click()
+      time.sleep(3)
+
+      self.select_a_shark_from_the_list = self.driver.\
+         find_element(By.CSS_SELECTOR, "#Catalog > table > tbody > tr:nth-child(2) > td:nth-child(1) > a")
+      self.select_a_shark_from_the_list.click()
+      time.sleep(3)
+
+      self.adding_toothless_shark_to_cart = self.driver.find_element(By.ID, "Catalog")
+      self.adding_toothless_shark_to_cart.click()
+      time.sleep(3)
+
+   def test_06_click_parrot_and_back(self) -> None:
+      self.main_page_button = self.driver.find_element(By.LINK_TEXT, "Enter the Store")
+      self.main_page_button.click()
+      time.sleep(3)
+
+      self.click_big_green_parrot = self.driver.find_element(By.ID, "MainImageContent")
+      self.click_big_green_parrot.click()
+      time.sleep(5)
+
+      self.return_through_the_main_logo = self.driver.find_element(By.ID, "LogoContent")
+      self.return_through_the_main_logo.click()
+      time.sleep(1)
+
+"""I'm done, thanks everyone!"""
+
+if __name__ == '__main__':
