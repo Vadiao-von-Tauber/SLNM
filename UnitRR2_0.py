@@ -22,7 +22,7 @@ if __name__ == '__main__':
     default_sleep_time = 5
     time.sleep(default_sleep_time)
 
-    # A2
+    # A2_
     first_result_link = browser.find_element(By.PARTIAL_LINK_TEXT, "Record")
     first_result_link.click()
 
