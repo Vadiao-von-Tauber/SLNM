@@ -128,3 +128,4 @@ class PetStoreTests(unittest.TestCase):
 """I'm done, thanks everyone!"""
 
 if __name__ == '__main__':
+   unittest.main()
